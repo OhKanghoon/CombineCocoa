@@ -1,0 +1,12 @@
+platform :ios, '13.0'
+
+target 'CombineCocoaExample' do
+  use_frameworks!
+
+  pod 'CombineCocoa', :path => '../../'
+
+  target 'CombineCocoaExampleTests' do
+    inherit! :search_paths
+  end
+
+end
