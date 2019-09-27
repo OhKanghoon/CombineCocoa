@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'Combine Cocoa extensions'
   s.description      = <<-DESC
-  UI extensions
+  UI extensions with Combine
   DESC
 
   s.homepage         = 'https://github.com/OhKanghoon/CombineCocoa'
